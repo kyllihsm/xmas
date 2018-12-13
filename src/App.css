@@ -1,10 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+.esimene-pic {
+  width: 100%;
+
+  /* animation: App-logo-spin infinite 20s linear;
+  height: 40vmin; */
 }
 
 .App-header {
@@ -21,6 +25,67 @@
 .App-link {
   color: #61dafb;
 }
+
+.text-yo {
+  background-color: #393f43;
+  color: white;
+  padding: 10px;
+  margin-top: -10px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.text-yo > h1 {
+  margin: 0;
+  font-size: 36px;
+}
+
+.text-yo > h2 {
+  animation: blinker 0.3s linear infinite;
+  font-size: 100px;
+  
+}
+
+.text-yo > h3 {
+  font-size: 60px;
+}
+
+.text-yo > h4 {
+  font-size: 60px;
+}
+
+.text-yo > h5 {
+  animation: warning 1s linear infinite;
+  font-size: 36px;
+  width: 50%;
+  margin: auto;
+  padding-bottom: 50px;
+}
+
+@keyframes blinker {
+    0% {
+      color: #08a742;
+    }
+    100% {
+      color: #393f43;
+    }
+  }
+
+@keyframes warning {
+    0% {
+      color: #a70808;
+      }
+      100% {
+        color: #ffffff;
+      }
+  }
+  
+
+
+
+
+
+
+
 
 @keyframes App-logo-spin {
   from {
