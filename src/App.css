@@ -6,9 +6,31 @@
 
 .esimene-pic {
   width: 100%;
+}
+ 
+.keerleb-kampsun { 
+	animation: kampsun-spin infinite 20s linear;
+	height: 350px;
+}
 
-  /* animation: App-logo-spin infinite 20s linear;
-  height: 40vmin; */
+.keerleb-suss { 
+	animation: sussi-spin infinite 20s linear;
+	height: 350px;
+}
+
+.kampsun {
+	justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 100%;
+}
+
+.kampsun > h3 {
+	font-size: 60px;
+}
+
+.kampsun > h4 {
+	font-size: 60px;
 }
 
 .App-header {
@@ -59,6 +81,7 @@
   width: 50%;
   margin: auto;
   padding-bottom: 50px;
+  padding-top: 50px;
 }
 
 @keyframes blinker {
@@ -78,20 +101,22 @@
         color: #ffffff;
       }
   }
-  
 
-
-
-
-
-
-
-
-@keyframes App-logo-spin {
+@keyframes kampsun-spin {
   from {
     transform: rotate(0deg);
   }
   to {
-    transform: rotate(360deg);
+    transform: rotate(2000deg);
   }
 }
+
+@keyframes sussi-spin {
+	from {
+	  transform: rotate(0deg);
+	}
+	to {
+	  transform: rotate(10000deg);
+	}
+  }
+  
