@@ -8,7 +8,7 @@ class App extends Component {
     return (
       <div className="App">
        <img src={process.env.PUBLIC_URL + '/esimene_pic.png'} className="esimene-pic" alt="logo" />
-       <audio src={process.env.PUBLIC_URL + '/wham.mp3'} autoPlay></audio>
+       <audio src="https://images.alarab.com/data/static/MMS_Files/MP3/mp3_files//C/Christmas%20Time/mp3/Alarab.net_George-Micheal.Wham-Last_Christmas.mp3" autoPlay></audio>
           <div className="text-yo">
             <h1>PIPEDRIVE CHRISTMAS PARTY VOL FAMILY REUNION</h1>
             <h2>TOMORROW AT 7PM</h2>
