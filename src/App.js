@@ -9,7 +9,7 @@ class App extends Component {
       <div className="App">
        <img src={process.env.PUBLIC_URL + '/esimene_pic.png'} className="esimene-pic" alt="logo" />
        <audio src="https://images.alarab.com/data/static/MMS_Files/MP3/mp3_files//C/Christmas%20Time/mp3/Alarab.net_George-Micheal.Wham-Last_Christmas.mp3" autoPlay></audio>
-	   <iframe loop autoplay="autoplay" controls style={{display:'none'}}>
+	   <iframe loop autoPlay="autoplay" controls style={{display:'none'}}>
 			<source src="https://images.alarab.com/data/static/MMS_Files/MP3/mp3_files//C/Christmas%20Time/mp3/Alarab.net_George-Micheal.Wham-Last_Christmas.mp3" type="audio/mpeg"/>
 		</iframe>
 		  <div className="text-yo">
