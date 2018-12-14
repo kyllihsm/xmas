@@ -84,6 +84,11 @@
   padding-top: 50px;
 }
 
+.text-yo > h6 > a{
+	color: white;
+	text-decoration: none;
+}
+
 @keyframes blinker {
     0% {
       color: #08a742;

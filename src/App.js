@@ -4,6 +4,14 @@ import './App.css';
 
 
 class App extends Component {
+
+	componentDidMount() {
+		setTimeout(() => {
+			alert('You are the 999,99th visitor: Congratulations you WON!')
+		}, 3000)
+		
+	}
+
   render() {
     return (
       <div className="App">
@@ -27,7 +35,7 @@ class App extends Component {
 				<img className="keerleb-suss" src={process.env.PUBLIC_URL + '/sussid.png'}  alt="suss"/>
 			</div>
             <h5>IF YOU NEED SMTH FROM YOUR ROOM ON SATURDAY THEN GET IT NOW SINCE YOU WON'T BE ABLE TO ACCESS OTHER FLOORS DURING THE PARTY</h5>
-            <h6>#WHAMAGEDDON</h6>
+            <h6><a href="https://www.youtube.com/watch?v=E8gmARGvPlI">#WHAMAGEDDON</a></h6>
           </div>
       </div>
     );
